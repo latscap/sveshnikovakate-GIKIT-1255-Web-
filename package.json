@@ -1,0 +1,15 @@
+{
+  "name": "мякмяк",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy" : "surge ./dist svesha-gikit-basic-card.surge.sh"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  }
+}
