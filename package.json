@@ -7,9 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy" : "surge ./dist svesha-gikit-basic-card.surge.sh"
+    "deploy": "surge ./dist svesha-gikit-basic-card.surge.sh"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
     "vite": "^4.4.5"
   }
 }

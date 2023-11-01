@@ -4,102 +4,20 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>картачка tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mega Motivation</title>
     <style>
-      .card {
-        width: 550px;
-        height: 377px;
-        background-color: rgb(255, 213, 158) ;
-        border-radius: 16px;
-        display: flex;
-        flex-direction: row;
-      }
-      .image {
-        width: 50%;
-        background-color: rgb(255, 247, 238) ;
-        border-radius: 16px;
-
-      }
-      .image .nct {
-        width: 250px;
-        height: 350px;
-        margin: 12px; 
-      }
-
-      .content {
-        width: 50%;
-        padding: 24px;
-        background-color: rgb(255, 204, 137) ;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        border-radius: 16px;
-      }
-      .content .title {
-        font-size: 18px;
-        color: rgb(60, 255, 0);
-        font-family: sans-serif;
-
-      }
-      .content .discription {
-        font-size: 50px;
-        color: rgb(0, 0, 0);
-        font-family: serif;
-        font-weight: bold;
-
-      }
-      .content .discription_2 {
-        font-size: 20px;
-        color: rgb(0, 0, 0);
-        font-family: serif ;
-        margin: 16px 0;
-        line-height: 1,5;
-      }
-      .content .price {
-        font-size: 16px;
-        color: rgb(0, 0, 0);
-        font-family: serif ;
-        margin: 16px 0;
-        line-height: 1,5;
-      }
-      .content .discount {
-        font-size: 16px;
-        color: rgb(255, 0, 0);
-        font-family: serif ;
-        margin: 16px 0;
-        line-height: 1,5;
-      }
-      .content .real {
-        font-size: 16px;
-        color: rgb(0, 0, 0);
-        font-family: serif bold;
-        margin: 20px 0;
-        line-height: 1,5;
-      }
-      .content .discount {
-        font-size: 30px;
-        color: rgb(255, 0, 0);
-        font-family: serif ;
-        margin: 16px 0;
-        line-height: 1,5;
-      }
-      
+      @tailwind base;
+     @tailwind components;
+     @tailwind utilities;
     </style>
   </head>
-  <body style="background-color: rgb(255, 148, 8);">
-    <div class="card">
-      <div class="image">
-      <img class="nct" src="NCT-127-2-Baddies-Concept-Teaser-Images-documents-1.jpeg "/>
-    </div>
-      <div class="content">
-        <div class="title">NCT127</div>
-        <div class="discription">nct new album</div>
-        <div class="discription_2">nct127 happy to present new mini album "2baddies"</div>
-        <div class="price">
-          <span class="discount">$3</span>
-          <span class="real"><del>$5</del></span>
-        </div>
-        <button class="add">Two baddies</button>
+  <body class="bg-neutral-500">
+    <div class="flex flex-col bg-amber-100 w-32 h-16">
+     <div class="flex flex-row justify-between">
+     <span>icon</span>
+      <span>free</span>
+     </div>
     </div>
   </body>
 </html>
