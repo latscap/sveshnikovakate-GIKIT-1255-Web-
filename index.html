@@ -1,45 +1,63 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Mega Motivation</title>
-    <style>
-      @tailwind base;
-     @tailwind components;
-     @tailwind utilities;
-    </style>
-  </head>
-  <body class="bg-pink-100 flex flex-row justify-center">
-    <div class=" bg-amber-100 p-4 flex flex-col w-[230px]  rounded-2xl space-y-4">
-     <div class="flex flex-row justify-between items-center">
-      <span>
-        <iconify-icon icon="mdi:YouTube" style="cilor: red; font-size: 32px;"></iconify-icon>
-      </span>
 
-     <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="red" d="m10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9c.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83c-.25.9-.83 1.48-1.73 1.73c-.47.13-1.33.22-2.65.28c-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44c-.9-.25-1.48-.83-1.73-1.73c-.13-.47-.22-1.1-.28-1.9c-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83c.25-.9.83-1.48 1.73-1.73c.47-.13 1.33-.22 2.65-.28c1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44c.9.25 1.48.83 1.73 1.73Z"/></svg></span>
-     <div class="rounded-full bg-green-700 px-3 py-0.5">
-      <span class="text-xs text-white font-semibold leading-none">
-     free
-    </span>
-     </div>
-     
-     </div>
-      <div class="flex flex-col">
-        <span>Videos</span>
-        <span>YouTube</span>
-       </div>
-       <div class="flex flex-row justify-between">
-        <span>Rating 5.0</span>
-         <span>size 95.5mb</span>
-         <span>Downoload 8.5mb</span>
-        </div>
-        <div class="flex flex-row justify-start">
-          <span>icon</span>
-           <span>30 Mb/sec</span>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <title>Mega Motivation</title>
+  <style>
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Oswald:wght@300;700&display=swap');
+  </style>
+</head>
+
+<body class="bg-pink-100 flex flex-row justify-center" style="font-family: 'Oswald';">
+  <div class=" bg-amber-100 p-4 flex flex-col w-[230px]  rounded-2xl space-y-4">
+    <div class="flex flex-row justify-between items-center">
+      <span>
+        <iconify-icon icon="mdi:youtube" style="color: red; font-size: 32px;"></iconify-icon>
+      </span>
+  
+      <div class="rounded-full bg-green-700 px-3 py-0.5">
+        <span class="text-xs text-white font-semibold leading-none">
+          free
+        </span>
+      </div>
     </div>
-  </body>
+    <div class="flex flex-col">
+      <span class="text-sm">Videos</span>
+      <span class="text-2xl font-bold ">YouTube</span>
+    </div>
+    <div class="flex flex-row justify-between">
+      <div class="flex flex-col space-y-1">
+        <span class="text-xs">Rating</span>
+        <span class="font-bold">5.0</span>
+      </div>
+      <div class="flex flex-col space-y-1">
+        <span class="text-xs">Size</span>
+        <span class="font-bold">95.5mb</span>
+      </div>
+      <div class="flex flex-col space-y-1">
+        <span class="text-xs">Downloads</span>
+        <span class="font-bold">8.5m</span>
+      </div>
+    </div>
+    <div class="flex flex-row justify-start items-center space-x-3">
+      <span>
+        <iconify-icon icon="gridicons:pause" style="color: blue;" width="48"></iconify-icon>
+      </span>
+      <span>30 Mb/sec</span>
+      <div class="flex flex-row justify-between items-center"></div>
+      
+    </div>
+  </div>
+</body>
+
 </html>
